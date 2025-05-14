@@ -55,7 +55,7 @@ The requestID need to be added in the request when you create a consignment, and
         "consignmentRef": [
             "007862954443"
         ],
-        "consignmentTrackinglRef": [
+        "consignmentTrackingRef": [
             "2541300295444301AKL003AN"
         ],
         "totalPrice": 4.82,
