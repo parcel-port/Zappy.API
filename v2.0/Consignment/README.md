@@ -12,7 +12,6 @@ auth string has been passed).
 ## Required Parameters:
 * quoteRequestId [Require, value from /api/2.0/rate]
 * carrierMethodId [Require, value from /api/2.0/rate, e.g. "CPOLTPA5"]
-* emailToRecipient [Optional, 0 or 1, 1 if email to recipient]
 
 *Booking*
 - **pickupOption** [Optional, 0 or 1, default 1 for booking later, 0 if booking now]
