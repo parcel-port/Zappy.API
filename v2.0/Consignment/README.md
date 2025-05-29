@@ -35,7 +35,6 @@ Bearer:XlES6IXxqQZwo37CoB9ydlZmWQV84VdNhv-MF0WXpr9SUJqv3bL5CsBIDTqrDildBRBkzo6J2
 {
   "quoteRequestId": "f7788fac-b4e0-478d-93ab-028a10f27d22",
   "carrierMethodId": "CPOLTPA5",
-  "emailToRecipient": "1"
 //   "booking":{
     // "pickupOption": "0",
     // "pickupDate": "2022/09/20 12:30"
