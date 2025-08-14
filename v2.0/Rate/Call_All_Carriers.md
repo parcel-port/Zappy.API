@@ -32,7 +32,7 @@ auth string has been passed).
 - **custRef** - [Optional reference of the item]
 - **packageName** - [Optional custom package name]
 - **insuranceRequired** - [Required if international, true / false]
-- **insuredValueAmount** - [Required if international, insured value]
+- **insuredValueAmount** - [Required if InsuranceRequired is true: the insured value. Be aware that extra charges may apply if the insuredValueAmount exceeds the carrier’s StandardCompensationCover.]
 - **currency** - [Optional, currency of the insuredValueAmount]
 - **contentType** - [Optional, choose a code from the 'Content Type' list below. Only apply for NZPost International services.]
 - **packageContents** - [Required if international, a list of item in the parcel]
