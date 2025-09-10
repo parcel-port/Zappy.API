@@ -5,7 +5,6 @@ Zappy API provides an access to enable your customer to send parcels using our s
 Try it in [Postman](https://zappy-nz.postman.co/network/import?collection=9251978-78b291be-1ec4-4f58-a552-529f512c233e-2sB2j3BrhD&referrer=https%3A%2F%2Fdocumenter.getpostman.com%2Fview%2F9251978%2F2sB2j3BrhD&versionTag=latest&environment=9251978-179ba691-cb46-4ef2-abb3-de8caaea1ca9-2sB2j3BrhD&source=documenter&traceId=7ab58a82-b219-4ba5-98a0-dc9c5e28e749). Please make sure to use the Zappy API environment that has been provided.
 ***
 
-### UAT URL: https://test-api.zappy.nz  
 ### Live URL: https://api.zappy.nz  
 
 # Get token 
