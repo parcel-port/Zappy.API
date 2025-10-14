@@ -28,7 +28,6 @@ POST https://api.zappy.au/api/auth/token
 Content-Type: application/json;
 ```
 
-**x-www-form-urlencoded**
 ``` json
 {
     "ClientId":"9DC2DD08D6EC43A4B8693B0DAD9394C9",
