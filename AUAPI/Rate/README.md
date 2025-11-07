@@ -96,7 +96,7 @@ Bearer:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhM2E5NzIxYy1iMjQ0LTQwMjMt
         "AddressBuilding": "",
         "AddressStreet": "12 Pitt Street",
         "ContactName": "Kevin",
-        "CompanyName": "Zapy",
+        "CompanyName": "Zappy",
         "AddressSuburb": "Parramatta",
         "AddressCity": "Parramatta",
         "AddressState": "NSW",
