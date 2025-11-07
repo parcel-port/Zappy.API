@@ -145,56 +145,38 @@ Choose a carrier from the list of rate and [create a consignment](Consignment/RE
 {
     "IsSuccess": true,
     "Data": {
-        "QuoteRequestUuid": "09bd6130574a42e8b3b2f88ab3d16fc1",
-        "DateExpired": "2024-07-24T07:43:56.2078857Z",
+        "QuoteRequestUuid": "c7aea32ca85848fc9bf8f7639add7cbc",
+        "DateExpired": "2025-11-08T01:57:08.442144Z",
         "ErrorMessage": null,
         "CarrierErrors": {
             "cp": [
-                "Sender address cannot be picked up."
+                "Recipient company name is required when commercial address is selected."
+            ],
+            "ap": [
+                "Please ensure that the Length × Width × Height of each package is at least 0.0001 m³."
             ]
         },
         "Quotes": [
             {
                 "CarrierId": "ft",
-                "CarrierMethodId": "ft_freight",
-                "PricingPlanId": 1,
-                "TotalExlGst": 7.21,
-                "GstTotal": 0.73,
+                "TotalExlGst": 7.68,
+                "GstTotal": 0.78,
                 "AddOns": [
                     {
                         "CarrierMethodId": "ft_freight",
-                        "PriceGst": 0.66,
-                        "PriceExlGst": 6.57,
-                        "CostGst": 0.66,
-                        "CostExlGst": 6.57,
-                        "IsSelected": true,
+                        "PriceGst": 0.73,
+                        "PriceExlGst": 7.22,
                         "CarrierMethodName": "Freight",
-                        "CarrierMethodDescription": "Freight",
-                        "CarrierMethodCode": "",
-                        "TaxRate": 0.100,
-                        "FormulaInstanceId": 1,
-                        "FormulaParamA": 1.000000,
-                        "FormulaParamB": 0.000000
+                        "CarrierMethodDescription": "Freight"
                     },
                     {
                         "CarrierMethodId": "ft_ruc",
-                        "PriceGst": 0.07,
-                        "PriceExlGst": 0.64,
-                        "CostGst": 0.07,
-                        "CostExlGst": 0.64,
-                        "IsSelected": true,
+                        "PriceGst": 0.05,
+                        "PriceExlGst": 0.46,
                         "CarrierMethodName": "Fuel Surcharge",
-                        "CarrierMethodDescription": "",
-                        "CarrierMethodCode": "",
-                        "TaxRate": 0.100,
-                        "FormulaInstanceId": 1,
-                        "FormulaParamA": 1.000000,
-                        "FormulaParamB": 0.000000
+                        "CarrierMethodDescription": ""
                     }
-                ],
-                "QuoteItems": [],
-                "CarrierName": null,
-                "CarrierLogo": null
+                ]
             }
         ]
     }
