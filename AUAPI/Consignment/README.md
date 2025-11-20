@@ -3,7 +3,7 @@
 Allows third-party systems to make consignments and get consignment tracking
 numbers based on the passed QuoteRequestUuid and CarrierMethodId. 
 
-- Endpoint: /api/2.0/consignmentcreate
+- Endpoint: /api/2.0/consignment/create
 - Http Method: POST
 
 *This API can only be called after the API authentication is approved (the correct
