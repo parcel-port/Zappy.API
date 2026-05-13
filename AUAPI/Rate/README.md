@@ -77,6 +77,66 @@ auth string has been passed).
   </tr>
 </table>
 
+*Zappy Carrier list*
+<table>
+  <tr>
+    <th>Carrier Id</th>
+    <th>Carrier Name</th>
+  </tr>
+  <tr>
+    <td>ae</td>
+    <td>AlliedExpress</td>
+  </tr>
+  <tr>
+    <td>ap</td>
+    <td>AustraliaPost</td>
+  </tr>
+  <tr>
+    <td>asd</td>
+    <td>Asendia</td>
+  </tr>
+  <tr>
+    <td>cp</td>
+    <td>CouriersPlease</td>
+  </tr>
+  <tr>
+    <td>ewe</td>
+    <td>EWE</td>
+  </tr>
+  <tr>
+    <td>fedex</td>
+    <td>FedEx</td>
+  </tr>
+  <tr>
+    <td>ft</td>
+    <td>Aramex</td>
+  </tr>
+  <tr>
+    <td>hunter</td>
+    <td>Hunter Express</td>
+  </tr>
+  <tr>
+    <td>mypost</td>
+    <td>MyPost Business</td>
+  </tr>
+  <tr>
+    <td>pfl</td>
+    <td>PFL</td>
+  </tr>
+  <tr>
+    <td>tge</td>
+    <td>Team Global Express</td>
+  </tr>
+  <tr>
+    <td>tnt</td>
+    <td>TNT</td>
+  </tr>
+  <tr>
+    <td>zyl</td>
+    <td>ZYL Express</td>
+  </tr>
+</table>
+
 ## Example
 **Request Headers**
 ```
