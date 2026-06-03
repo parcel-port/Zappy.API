@@ -56,6 +56,7 @@ The requestID need to be added in the request when you create a consignment, and
         "Success": true,
         "ErrorMessage": null,
         "ConsignmentRef": "000020000040",
+        "TrackingRefs":["MP0086376314","MP0086376315"],
         "ConsignmentId": null,
         "InfoMessage": null
     }
