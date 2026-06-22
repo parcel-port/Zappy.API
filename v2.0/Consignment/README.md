@@ -54,7 +54,10 @@ The requestID need to be added in the request when you create a consignment, and
             "007862954443"
         ],
         "consignmentTrackingRef": [
-            "2541300295444301AKL003AN"
+            "MX0032340059"
+        ],
+        "consignmentTrackingLink": [
+            "https://www.aramex.co.nz/tools/track?l=MX0032340059"
         ],
         "totalPrice": 4.82,
         "totalGst": 0.73
