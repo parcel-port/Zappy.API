@@ -219,8 +219,9 @@ Choose a carrier from the list of rate and [create a consignment](Consignment/RE
         "Quotes": [
             {
                 "CarrierId": "ft",
-                "TotalExlGst": 7.68,
-                "GstTotal": 0.78,
+                "CarrierMethodId": "ft_freight",
+                "TotalExlGst": 8.55,
+                "GstTotal": 0.87,
                 "AddOns": [
                     {
                         "CarrierMethodId": "ft_freight",
@@ -231,12 +232,14 @@ Choose a carrier from the list of rate and [create a consignment](Consignment/RE
                     },
                     {
                         "CarrierMethodId": "ft_ruc",
-                        "PriceGst": 0.05,
-                        "PriceExlGst": 0.46,
+                        "PriceGst": 0.14,
+                        "PriceExlGst": 1.33,
                         "CarrierMethodName": "Fuel Surcharge",
                         "CarrierMethodDescription": ""
                     }
-                ]
+                ],
+                "CarrierMethodName": null,
+                "DeliveryTarget": null
             }
         ]
     }
