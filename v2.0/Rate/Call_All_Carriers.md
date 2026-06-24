@@ -146,6 +146,9 @@ auth string has been passed).
   </tr>
 </table>
 
+## Response: 
+Refer to the Example.
+
 *Carrier and Carrier Method in the response*
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
