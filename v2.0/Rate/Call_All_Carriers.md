@@ -149,7 +149,7 @@ auth string has been passed).
 ## Response: 
 Refer to the Example.
 
-*Carrier and Carrier Method in the response*  
+*Carrier and Carrier Method*  
 *Notes: NZ Post Offline is available only if your account manager has enabled it for you. All carrier method IDs for NZ Post Offline have an "OFF" suffix (e.g., CPOLPOFF for the NZ Post Overnight Delivery service).
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
