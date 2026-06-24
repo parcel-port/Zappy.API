@@ -174,6 +174,14 @@ auth string has been passed).
     <td>np</td>
     <td>NZPost International</td>
   </tr>
+  <tr>
+    <td>dhl</td>
+    <td>DHL</td>
+  </tr>
+  <tr>
+    <td>fedexapi</td>
+    <td>FedEx</td>
+  </tr>
   
 </table>
 
