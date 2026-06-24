@@ -160,12 +160,12 @@ auth string has been passed).
   </thead>
   <tbody>
     <tr>
-      <td rowspan="13">Domestic</td>
+      <td rowspan="12">Domestic</td>
       <td rowspan="2">apinewph</td>
       <td rowspan="2">Post Haste</td>
       <td>apinewphft</td>
       <td>Overnight Delivery</td>
-      <td rowspan="13"></td>
+      <td rowspan="2"></td>
     </tr>
     <tr>
       <td>apinewphft2d</td>
@@ -198,7 +198,7 @@ auth string has been passed).
       <td rowspan="11">NZ Post</td>
       <td>ICOU</td>
       <td>Courier</td>
-      <td rowspan="19"></td>
+      <td rowspan="11"></td>
     </tr>
     <tr><td>IECON</td><td>Economy</td></tr>
     <tr><td>IECOP</td><td>Economy Plus</td></tr>
@@ -215,6 +215,7 @@ auth string has been passed).
       <td rowspan="4">DHL</td>
       <td>DHL-E</td>
       <td>EXPRESS 9:00</td>
+      <td rowspan="4"></td>
     </tr>
     <tr><td>DHL-M</td><td>EXPRESS 10:30</td></tr>
     <tr><td>DHL-P</td><td>EXPRESS WORLDWIDE</td></tr>
@@ -224,6 +225,7 @@ auth string has been passed).
       <td rowspan="4">FedEx</td>
       <td>fedexapi_ie</td>
       <td>FedEx International Economy</td>
+      <td rowspan="4"></td>
     </tr>
     <tr><td>fedexapi_intl1st</td><td>FedEx International First</td></tr>
     <tr><td>fedexapi_ip eod</td><td>FedEx International Priority</td></tr>
