@@ -150,12 +150,11 @@ auth string has been passed).
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
-      <th>Category</th>
+      <th></th>
       <th>Carrier ID</th>
       <th>Carrier Name</th>
       <th>Carrier Method ID</th>
       <th>Service Description</th>
-      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
@@ -165,7 +164,6 @@ auth string has been passed).
       <td rowspan="2">Post Haste</td>
       <td>apinewphft</td>
       <td>Overnight Delivery</td>
-      <td rowspan="2"></td>
     </tr>
     <tr>
       <td>apinewphft2d</td>
@@ -182,7 +180,6 @@ auth string has been passed).
       <td rowspan="9">NZ Post / NZ Post Offline</td>
       <td>CPOLE</td>
       <td>NZ Post Inter-Island Economy</td>
-      <td rowspan="9">NZ Post Offline is available only if your account manager has enabled it for you. All carrier method IDs for NZ Post Offline have an "OFF" suffix (e.g., CPOLPOFF for the NZ Post Overnight Delivery service).</td>
     </tr>
     <tr><td>CPOLP</td><td>NZ Post Overnight Delivery</td></tr>
     <tr><td>CPOLPPS</td><td>NZ Post Perishable Parcel</td></tr>
@@ -198,7 +195,6 @@ auth string has been passed).
       <td rowspan="11">NZ Post</td>
       <td>ICOU</td>
       <td>Courier</td>
-      <td rowspan="11"></td>
     </tr>
     <tr><td>IECON</td><td>Economy</td></tr>
     <tr><td>IECOP</td><td>Economy Plus</td></tr>
@@ -215,7 +211,6 @@ auth string has been passed).
       <td rowspan="4">DHL</td>
       <td>DHL-E</td>
       <td>EXPRESS 9:00</td>
-      <td rowspan="4"></td>
     </tr>
     <tr><td>DHL-M</td><td>EXPRESS 10:30</td></tr>
     <tr><td>DHL-P</td><td>EXPRESS WORLDWIDE</td></tr>
@@ -225,7 +220,6 @@ auth string has been passed).
       <td rowspan="4">FedEx</td>
       <td>fedexapi_ie</td>
       <td>FedEx International Economy</td>
-      <td rowspan="4"></td>
     </tr>
     <tr><td>fedexapi_intl1st</td><td>FedEx International First</td></tr>
     <tr><td>fedexapi_ip eod</td><td>FedEx International Priority</td></tr>
