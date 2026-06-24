@@ -147,7 +147,7 @@ auth string has been passed).
 </table>
 
 *Carrier and Carrier Method in the response*
-<table>
+<table border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
       <th>Category</th>
@@ -160,184 +160,74 @@ auth string has been passed).
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">Domestic</td>
+      <td rowspan="13">Domestic</td>
       <td rowspan="2">apinewph</td>
       <td rowspan="2">Post Haste</td>
       <td>apinewphft</td>
       <td>Overnight Delivery</td>
-      <td></td>
+      <td rowspan="13"></td>
     </tr>
     <tr>
       <td>apinewphft2d</td>
       <td>2 Day Delivery</td>
-      <td></td>
     </tr>
     <tr>
       <td>ft</td>
       <td>Aramex</td>
       <td>ft_freight</td>
       <td>Standard Delivery Service</td>
-      <td></td>
     </tr>
     <tr>
-      <td rowspan="10">Domestic</td>
-      <td rowspan="10">NCP / NCPOFF</td>
-      <td rowspan="10">NZ Post / NZ Post Offline</td>
+      <td rowspan="9">NCP / NCPOFF</td>
+      <td rowspan="9">NZ Post / NZ Post Offline</td>
       <td>CPOLE</td>
       <td>NZ Post Inter-Island Economy</td>
-      <td rowspan="10">NZ Post Offline is available only if your account manager has enabled it for you. All carrier method IDs for NZ Post Offline have an "OFF" suffix (e.g., CPOLPOFF for the NZ Post Overnight Delivery service).</td>
+      <td rowspan="9">NZ Post Offline is available only if your account manager has enabled it for you. All carrier method IDs for NZ Post Offline have an "OFF" suffix (e.g., CPOLPOFF for the NZ Post Overnight Delivery service).</td>
     </tr>
+    <tr><td>CPOLP</td><td>NZ Post Overnight Delivery</td></tr>
+    <tr><td>CPOLPPS</td><td>NZ Post Perishable Parcel</td></tr>
+    <tr><td>CPOLTPA4</td><td>NZ Post Satchel A4</td></tr>
+    <tr><td>CPOLTPA5</td><td>NZ Post Satchel A5</td></tr>
+    <tr><td>CPOLTPDL</td><td>NZ Post Satchel DEL</td></tr>
+    <tr><td>CPOLTPFS</td><td>NZ Post Satchel Foolscap</td></tr>
+    <tr><td>CPOLTPLF</td><td>NZ Post Satchel Lineflow</td></tr>
+    <tr><td>CPOLTPXL</td><td>NZ Post Satchel Extra Large</td></tr>
     <tr>
-      <td>CPOLP</td>
-      <td>NZ Post Overnight Delivery</td>
-    </tr>
-    <tr>
-      <td>CPOLPPS</td>
-      <td>NZ Post Perishable Parcel</td>
-    </tr>
-    <tr>
-      <td>CPOLTPA4</td>
-      <td>NZ Post Satchel A4</td>
-    </tr>
-    <tr>
-      <td>CPOLTPA5</td>
-      <td>NZ Post Satchel A5</td>
-    </tr>
-    <tr>
-      <td>CPOLTPDL</td>
-      <td>NZ Post Satchel DEL</td>
-    </tr>
-    <tr>
-      <td>CPOLTPFS</td>
-      <td>NZ Post Satchel Foolscap</td>
-    </tr>
-    <tr>
-      <td>CPOLTPLF</td>
-      <td>NZ Post Satchel Lineflow</td>
-    </tr>
-    <tr>
-      <td>CPOLTPXL</td>
-      <td>NZ Post Satchel Extra Large</td>
-    </tr>
-    <tr>
-      <td>NZCFT</td>
-      <td>NZ Couriers Base Rate</td>
-    </tr>
-    <tr>
-      <td rowspan="18">International</td>
-      <td rowspan="13">np</td>
-      <td rowspan="13">NZ Post</td>
+      <td rowspan="19">International</td>
+      <td rowspan="11">np</td>
+      <td rowspan="11">NZ Post</td>
       <td>ICOU</td>
       <td>Courier</td>
-      <td></td>
+      <td rowspan="19"></td>
     </tr>
-    <tr>
-      <td>IECON</td>
-      <td>Economy</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>IECOP</td>
-      <td>Economy Plus</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>IECOT</td>
-      <td>Economy Tracked</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSCN</td>
-      <td>Courier Select China</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSEAUN</td>
-      <td>Courier Select AU Exp Sig Required No ATL</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSEAUS</td>
-      <td>Courier Select AU Express Sig Required</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSSAUN</td>
-      <td>Courier Select AU Standard Sig w/o ATL</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSSAUS</td>
-      <td>Courier Select AU Standard Sig w/ ATL</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSSAUT</td>
-      <td>Courier Select AU Standard Tracked</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>ICOUSUS</td>
-      <td>Courier Select US</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>TDEAUN</td>
-      <td>eParcel Signature Required</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>TDEAUS</td>
-      <td>eParcel Signature Required (ATL available)</td>
-      <td></td>
-    </tr>
+    <tr><td>IECON</td><td>Economy</td></tr>
+    <tr><td>IECOP</td><td>Economy Plus</td></tr>
+    <tr><td>IECOT</td><td>Economy Tracked</td></tr>
+    <tr><td>ICOUSCN</td><td>Courier Select China</td></tr>
+    <tr><td>ICOUSEAUN</td><td>Courier Select AU Exp Sig Required No ATL</td></tr>
+    <tr><td>ICOUSEAUS</td><td>Courier Select AU Express Sig Required</td></tr>
+    <tr><td>ICOUSSAUN</td><td>Courier Select AU Standard Sig w/o ATL</td></tr>
+    <tr><td>ICOUSSAUS</td><td>Courier Select AU Standard Sig w/ ATL</td></tr>
+    <tr><td>ICOUSSAUT</td><td>Courier Select AU Standard Tracked</td></tr>
+    <tr><td>ICOUSUS</td><td>Courier Select US</td></tr>
     <tr>
       <td rowspan="4">dhl</td>
       <td rowspan="4">DHL</td>
       <td>DHL-E</td>
       <td>EXPRESS 9:00</td>
-      <td></td>
     </tr>
-    <tr>
-      <td>DHL-M</td>
-      <td>EXPRESS 10:30</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>DHL-P</td>
-      <td>EXPRESS WORLDWIDE</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>DHL-Y</td>
-      <td>EXPRESS 12:00</td>
-      <td></td>
-    </tr>
+    <tr><td>DHL-M</td><td>EXPRESS 10:30</td></tr>
+    <tr><td>DHL-P</td><td>EXPRESS WORLDWIDE</td></tr>
+    <tr><td>DHL-Y</td><td>EXPRESS 12:00</td></tr>
     <tr>
       <td rowspan="4">fedexapi</td>
       <td rowspan="4">FedEx</td>
       <td>fedexapi_ie</td>
       <td>FedEx International Economy</td>
-      <td></td>
     </tr>
-    <tr>
-      <td>fedexapi_intl1st</td>
-      <td>FedEx International First</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td rowspan="2">International</td>
-      <td rowspan="2">fedexapi</td>
-      <td rowspan="2">FedEx</td>
-      <td>fedexapi_ip eod</td>
-      <td>FedEx International Priority</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>fedexapi_ipe</td>
-      <td>FedEx International Priority Express</td>
-      <td></td>
-    </tr>
+    <tr><td>fedexapi_intl1st</td><td>FedEx International First</td></tr>
+    <tr><td>fedexapi_ip eod</td><td>FedEx International Priority</td></tr>
+    <tr><td>fedexapi_ipe</td><td>FedEx International Priority Express</td></tr>
   </tbody>
 </table>
 
