@@ -1,4 +1,5 @@
 # This endpoint has been Deprecated.
+When integrating with the Zappy API, we recommend using the Rate, Consignment, and Label endpoints directly for obtaining quotes, creating consignments, and downloading labels. All orders are maintained in your own system; only labels are retrieved from Zappy.
 
 # Create new Custom third-party orders
 To use this API, please contact the administrator to apply for third-party integration (Custom) first.
