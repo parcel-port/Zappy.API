@@ -1,3 +1,5 @@
+# This endpoint has been Deprecated.
+
 # Create new Custom third-party orders
 To use this API, please contact the administrator to apply for third-party integration (Custom) first.
 You can upload a maximum of 20 pieces of data at a time.
