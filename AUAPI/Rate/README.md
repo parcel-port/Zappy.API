@@ -35,7 +35,7 @@ auth string has been passed).
 - **Phone** [Optional, contact phone]
 - **CompanyName** [Optional, company name] 
 - **Instruction** [Optional, instruction]
-- **IsCommercialAddress** [Optional, is commercial address, default is '*0*', '*1*' if commercial address]
+- **IsResidential** ['*1*' if residential address]
 
 *SenderAddress*
 - **AddressStreet** [Require, unit number + street number + street name]
@@ -51,7 +51,7 @@ auth string has been passed).
 - **Phone** [Optional, contact phone]
 - **CompanyName** [Optional, company name] 
 - **Instruction** [Optional, instruction]
-- **IsCommercialAddress** [Optional, is commercial address, default is '*0*', '*1*' if commercial address]
+- **IsResidential** ['*1*' if residential address]
 
 *Zappy satchel list*
 <table>
