@@ -13,7 +13,7 @@ auth string has been passed).
 *IsSignature* - [Optional, default is '*0*', '*1*' if signature required]
 
 *Parcels* - [Required, a list of parcel]
-- **PackageId** - [Optional, default is '**', see the following table of *Zappy satchel list* ]
+- **PackageId** - [Optional, default is empty, required if satchels, see the following table of *Zappy satchel list* ]
 - **Length** - [Required if not using satchel, length of the parcel cm]
 - **Width** - [Required if not using satchel, width of the parcel cm]
 - **Height** - [Required if not using satchel, height of the parcel cm]
