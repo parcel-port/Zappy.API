@@ -45,7 +45,8 @@ Content-Type: application/json;
     "tokenType": "bearer"
 }
 ```
-# API Rate Limits
+## API Rate Limits
+# Limits
 | Endpoint | Policy Type | Per Second | Per Minute |
 | --- | --- | --- | --- |
 | `/token` | Endpoint | 5 | 50 |
@@ -55,6 +56,7 @@ Content-Type: application/json;
 | `/api/2.0/booking` | Endpoint | 1 | 30 |
 | `/api/2.0/tracking` | Endpoint | 5 | 100 |
 
+# Error Response
 When the rate limit is exceeded, an error response may still be returned with an HTTP 200 status:
 { "isSuccess": false, "statusCode": 429, "errors": ["API calls quota exceeded!"] }.
 A Retry-After header will also be included in the response to indicate when the request can be retried.
