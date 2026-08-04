@@ -86,6 +86,17 @@ Content-Type: application/json;
 }
 ```
 
+# API Rate Limits
+| Endpoint | Policy Type | Per Second | Per Minute |
+| --- | --- | --- | --- |
+| `/token` | Endpoint | 5 | 50 |
+| `/api/1.0/shippingoptions` | Endpoint | 1 | 30 |
+| `/api/1.0/consignment` | Endpoint | 1 | 30 |
+| `/api/1.0/labels` | Endpoint | 1 | 30 |
+| `/api/1.0/bookings` | Endpoint | 1 | 30 |
+| `/api/1.0/tracking` | Endpoint | 1 | 30 |
+| `/api/1.0/thirdpartyorders` | Endpoint | 1 | 30 |
+
 ***
 
 # Shipping
