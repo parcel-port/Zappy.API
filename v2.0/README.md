@@ -52,8 +52,6 @@ Content-Type: application/json;
 | `/api/2.0/rate` | Endpoint | 5 | 60 |
 | `/api/2.0/consignment` | Endpoint | 5 | 60 |
 | `/api/2.0/label` | Endpoint | 5 | 60 |
-| `/api/2.0/label/content` | Endpoint | 1 | 30 |
-| `/api/2.0/booking` | Endpoint | 1 | 30 |
 | `/api/2.0/tracking` | Endpoint | 5 | 100 |
 
 ***
