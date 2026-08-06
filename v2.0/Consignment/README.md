@@ -17,6 +17,17 @@ auth string has been passed).
 - **pickupOption** [Optional, 0 or 1, default 1 for booking later, 0 if booking now]
 - **pickupDate** [Optional, default DateTime.Now]
 
+## Prepay Account
+Please note that the error message 'There is not enough balance in the prepayment account.' will be returned if your account is on a Prepay plan and there are insufficient credits available.
+```json
+{
+    "isSuccess": false,
+    "statusCode": 500,
+    "errors": [
+        "There is not enough balance in the prepayment account."
+    ]
+}
+```
 
 ## Example
 
