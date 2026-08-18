@@ -62,6 +62,17 @@ When the rate limit is exceeded, an error response may still be returned with an
 { "isSuccess": false, "statusCode": 429, "errors": ["API calls quota exceeded!"] }.
 ```  
 A Retry-After header will also be included in the response to indicate when the request can be retried.
+## Invalid access token 
+If the token is invalid or expired, the corresponding error response will be returned, an error response may still be returned with an HTTP 200 status: 
+``` json
+{
+    "isSuccess": false,
+    "statusCode": 401,
+    "errors": [
+        "Authorization has been denied for this request."
+    ]
+}
+```  
 ***
 
 # Get rates
