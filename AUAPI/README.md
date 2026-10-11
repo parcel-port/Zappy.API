@@ -7,8 +7,8 @@ Zappy API provides an access to enable your customer to send parcels using our s
 ### URL: https://api.zappy.au  
 ### UAT URL: https://uat-api.zappy.au
 # Get token using client credentials
-Log in to the Zappy website first. Then, add your client credentials on the 'Settings -> API Secret Key' page. 
-Utilize the added 'ClientId' and 'Secret' to obtain the access token via the following endpoint: /api/auth/token 
+Please contact your account manager to obtain the credentials.
+Use the received 'ClientId' and 'Secret' to obtain the access token via the following endpoint: /api/auth/token 
 
 - Endpoint: /api/auth/token
 - Http Method: POST
