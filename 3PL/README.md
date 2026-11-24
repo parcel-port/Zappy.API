@@ -61,4 +61,7 @@ Content-Type: application/json;
 
 # Outwards
 - **[<code style="background-color:#009D77">POST</code> /Outwards](Outwards/README.md)** Creates an outwards request.
-
+# Stock Level
+- Please contact us to arrange the setup of your StockLevel webhook.
+# Outwards Order Tracking
+- Please contact us to arrange the setup of your Tracking webhook.
