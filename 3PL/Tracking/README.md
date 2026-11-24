@@ -1,4 +1,4 @@
-# Get Tracking History
+# Get Tracking History – Deprecated. Stock levels are now updated via webhook. Please contact us to arrange setup.
 
 Request for tracking history of an outwards order.
 
