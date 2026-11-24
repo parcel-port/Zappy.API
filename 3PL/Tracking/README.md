@@ -55,6 +55,10 @@ auth string has been passed).
     <td>Ready for pick up</td>
   </tr>
   <tr>
+    <td>5</td>
+    <td>Picked. Waiting for packing</td>
+  </tr>
+  <tr>
     <td>6</td>
     <td>Picked up</td>
   </tr>
