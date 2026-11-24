@@ -62,5 +62,3 @@ Content-Type: application/json;
 # Outwards
 - **[<code style="background-color:#009D77">POST</code> /Outwards](Outwards/README.md)** Creates an outwards request.
 
-# Tracking
-- **[<code style="background-color:#009D77">GET</code> /Outwards/{ReferenceNumber}](Tracking/README.md)** Get tracking history of the outwards by the reference number.
