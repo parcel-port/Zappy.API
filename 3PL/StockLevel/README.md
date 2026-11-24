@@ -1,4 +1,4 @@
-# Stock Level
+# Stock Level – Deprecated. Stock levels are now updated via webhook. Please contact us to arrange setup.
 
 Request for all stock levels or for one specified product.
 
